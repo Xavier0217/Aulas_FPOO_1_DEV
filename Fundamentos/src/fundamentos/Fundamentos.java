@@ -1,10 +1,7 @@
 
 package fundamentos;
 
-/**
- *
- * @author Aluno
- */
+
 public class Fundamentos {
 
 

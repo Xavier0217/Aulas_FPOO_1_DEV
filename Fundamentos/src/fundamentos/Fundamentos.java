@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package fundamentos;
 
 /**
@@ -10,11 +7,13 @@ package fundamentos;
  */
 public class Fundamentos {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        // TODO code application logic here
+ 
+        String nome = "Xavier";
+        int idade = 40;
+        boolean estudano = true;
+        double media = 5.5;
     }
     
 }

@@ -19,7 +19,7 @@ public class VelocidadeCarro {
             if (valorMulta > 0) {
                 System.out.printf("Voce foi multado! Valor da multa: R$ %.2f\n", valorMulta);
             } else {
-                System.out.println("Parabéns, você está dentro do limite de velocidade!");
+                System.out.println("Você está dentro do limite de velocidade, podera seguir tranquilamente");
             }
         } catch (Exception e) {
             System.out.println("Valor inválido. Digite um número válido para a velocidade.");

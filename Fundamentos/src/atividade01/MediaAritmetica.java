@@ -9,18 +9,28 @@ public class MediaAritmetica {
         System.out.print("Digite a quantidade de valores a serem inseridos: ");
         int quantidadeValores = input.nextInt();
 
-        double soma = 0;
+        double[] valores = new double[quantidadeValores];
 
-        for (int i = 1; i <= quantidadeValores; i++) {
-            System.out.print("Digite o valor " + i + ": ");
-            double valor = input.nextDouble();
-            soma += valor;
+        for (int i = 0; i < quantidadeValores; i++) {
+            System.out.print("Digite o valor " + (i + 1) + ": ");
+            valores[i] = input.nextDouble();
         }
 
-        double media = soma / quantidadeValores;
+        double media = calcularMedia(valores);
         System.out.println("A media aritmetica e: " + media);
 
         input.close();
     }
+
+    public static double calcularMedia(double... valores) {
+        double soma = 0;
+
+        for (double valor : valores) {
+            soma += valor;
+        }
+
+        return soma / valores.length;
+    }
 }
+
 

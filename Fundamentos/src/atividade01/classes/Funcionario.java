@@ -1,6 +1,7 @@
 package atividade01.classes;
 
 public class Funcionario {
+
     private double salario;
 
     public Funcionario(double salario) {
@@ -15,4 +16,3 @@ public class Funcionario {
         }
     }
 }
-

@@ -1,10 +1,6 @@
-
 package enumeracao;
 
-/**
- *
- * @author Aluno
- */
+
 public enum StatusEnum {
     EM_PREPARACAO("Em preparação"),
     EM_TRANSPORTE("Em transporte"),

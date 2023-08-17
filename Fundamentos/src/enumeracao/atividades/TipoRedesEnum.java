@@ -1,7 +1,5 @@
 package enumeracao.atividades;
 
-import jdk.jshell.execution.StreamingExecutionControl;
-
 
 public enum TipoRedesEnum {
     

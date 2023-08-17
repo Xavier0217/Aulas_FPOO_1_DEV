@@ -1,7 +1,5 @@
-
 package enumeracao.atividades;
 
-import javax.management.MBeanInfo;
 
 public enum TipoMesesEnum {
     

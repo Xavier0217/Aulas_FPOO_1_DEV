@@ -46,12 +46,23 @@ public class Atividade {
         
         Curso dev = new Curso("Desenvolvimento de sistemas", "Sistemas", CursoEnum.PROGRAMACAO);
         System.out.println(dev);
+        dev.verificarCategoria();
+        dev.verificarCurso();
+        System.out.println("\n");
+
         
         Curso design = new Curso("Designer", "Design de coisas",CursoEnum.DESIGN);
         System.out.println(design);
+        design.verificarCategoria();
+        design.verificarCurso();
+        System.out.println("\n");
+
         
         Curso negocios = new Curso("Negocios", "Negocios", CursoEnum.NEGOCIOS);
         System.out.println(negocios);
+        negocios.verificarCategoria();
+        negocios.verificarCurso();
+        System.out.println("\n");
        
     }
     

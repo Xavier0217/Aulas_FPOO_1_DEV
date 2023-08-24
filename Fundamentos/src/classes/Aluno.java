@@ -16,23 +16,23 @@ public class Aluno {
         this.media = media;
     }
 
-    
-    
-    public void Passou(int media) {
-        if (media >= 7) {
-            System.out.println("O Aluno esta aprovado");
-        } else {
-            System.out.println("O Aluno esta reprovado");
-        }
-    }
-
     @Override
     public String toString() {
         return "Aluno{" + "nome=" + nome + ", email=" + email + ", ra=" + ra + ", fezLicao=" + fezLicao + ", media=" + media + '}';
     }
 
+    public void verificarAprovacao() {
+        if (fezLicao && media >= 6) {
+            System.out.println(nome + " foi aprovado!");
+        } else {
+            System.out.println(nome + " nao foi aprovado.");
+        }
+    }
 
-    
-    
-    
+    public void enviarEmailLembrete() {
+        if (!fezLicao) {
+            System.out.println("Enviando email de lembrete para " + nome + ": Nao esqueca de fazer a licao!");
+        }
+    }
 }
+

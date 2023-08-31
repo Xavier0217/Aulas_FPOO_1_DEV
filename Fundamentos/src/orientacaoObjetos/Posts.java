@@ -23,20 +23,7 @@ public class Posts implements ClassificacaoPost{
     public String getTitulo() {
         return titulo;
     }
-
-    public int getVisualizações() {
-        return visualizações;
-    }
-
-    public int getLikes() {
-        return likes;
-    }
-
-    public int getComentarios() {
-        return comentarios;
-    }
     
-
     @Override
     public String toString() {
         return "Posts{" + "usuario=" + usuario + ", titulo=" + titulo + ", visualiza\u00e7\u00f5es=" + visualizações + ", likes=" + likes + ", comentarios=" + comentarios + '}';

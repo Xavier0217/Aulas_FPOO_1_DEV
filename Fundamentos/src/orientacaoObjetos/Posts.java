@@ -28,14 +28,17 @@ public class Posts implements ClassificacaoPost{
     public String toString() {
         return "Posts{" + "usuario=" + usuario + ", titulo=" + titulo + ", visualiza\u00e7\u00f5es=" + visualizações + ", likes=" + likes + ", comentarios=" + comentarios + '}';
     }
-    
+    @Override
     public int comum(int qtdeEstrelas) {
         return UMA_ESTRELA;
     }
     
+    @Override
     public int legal(int qtdeEstrelas) {
         return TRES_ESTRELAS;
     }
+    
+    @Override
     public int superLegal (int qtdeEstrelas) {
         return CINCO_ESTRELAS;
     }
